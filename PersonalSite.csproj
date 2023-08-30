@@ -1,0 +1,174 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PersonalSite-711e8bbc-abbe-447c-9c2f-20d80e86436b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\favicon.ico" />
+    <Content Remove="wwwroot\css\styles.css" />
+    <Content Remove="wwwroot\Images\275375329_368252015163033_190290605408322496_n.jpg" />
+    <Content Remove="wwwroot\Images\355034420_661020895426297_3647293054099116849_n.jpg" />
+    <Content Remove="wwwroot\Images\85gb_photo-mWeDZWOz39U-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\aldi-sigun-K-sdQ12jZeY-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\artur-tumasjan-IDbeTFgI9As-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\bernard-hermant-bSpqe48INMg-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\bw.jpg" />
+    <Content Remove="wwwroot\Images\cdd20-0vIIPcc6wws-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\convertkit-waxDxYM2XI4-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\driftime-media-NkhK9J-0DaI-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\efe-kurnaz-RnCPiXixooY-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\evgeniy-smersh-S9-yc8ZmW0Q-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\faria-anzum-ONK9IlKizS4-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\Gene.jpg" />
+    <Content Remove="wwwroot\Images\josh-hild-E3LpDeLz0ts-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\jr-korpa-9XngoIpxcEo-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\julien-tromeur-6-adg66qleM-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\lidya-nada-tXz6g8JYYoI-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\luis-villasmil-ITFwHdPEED0-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\markus-winkler-6CSJWMs6JVA-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\Me1.jpg" />
+    <Content Remove="wwwroot\Images\pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\shark-ovski-88pn4FfdtY8-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\shubham-dhage-xVWSP1rvZcM-unsplash.jpg" />
+    <Content Remove="wwwroot\Images\thumbnail_IMG_1615.jpg" />
+    <Content Remove="wwwroot\Images\wood-fence-background_2.jpeg" />
+    <Content Remove="wwwroot\js\scripts.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="_ARCHIVE\.vscode\settings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\favicon.ico" />
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\Images\275375329_368252015163033_190290605408322496_n.jpg" />
+    <None Include="wwwroot\Images\355034420_661020895426297_3647293054099116849_n.jpg" />
+    <None Include="wwwroot\Images\85gb_photo-mWeDZWOz39U-unsplash.jpg" />
+    <None Include="wwwroot\Images\aldi-sigun-K-sdQ12jZeY-unsplash.jpg" />
+    <None Include="wwwroot\Images\artur-tumasjan-IDbeTFgI9As-unsplash.jpg" />
+    <None Include="wwwroot\Images\bernard-hermant-bSpqe48INMg-unsplash.jpg" />
+    <None Include="wwwroot\Images\bw.jpg" />
+    <None Include="wwwroot\Images\cdd20-0vIIPcc6wws-unsplash.jpg" />
+    <None Include="wwwroot\Images\convertkit-waxDxYM2XI4-unsplash.jpg" />
+    <None Include="wwwroot\Images\driftime-media-NkhK9J-0DaI-unsplash.jpg" />
+    <None Include="wwwroot\Images\efe-kurnaz-RnCPiXixooY-unsplash.jpg" />
+    <None Include="wwwroot\Images\evgeniy-smersh-S9-yc8ZmW0Q-unsplash.jpg" />
+    <None Include="wwwroot\Images\faria-anzum-ONK9IlKizS4-unsplash.jpg" />
+    <None Include="wwwroot\Images\Gene.jpg" />
+    <None Include="wwwroot\Images\josh-hild-E3LpDeLz0ts-unsplash.jpg" />
+    <None Include="wwwroot\Images\jr-korpa-9XngoIpxcEo-unsplash.jpg" />
+    <None Include="wwwroot\Images\julien-tromeur-6-adg66qleM-unsplash.jpg" />
+    <None Include="wwwroot\Images\lidya-nada-tXz6g8JYYoI-unsplash.jpg" />
+    <None Include="wwwroot\Images\luis-villasmil-ITFwHdPEED0-unsplash.jpg" />
+    <None Include="wwwroot\Images\markus-winkler-6CSJWMs6JVA-unsplash.jpg" />
+    <None Include="wwwroot\Images\Me1.jpg" />
+    <None Include="wwwroot\Images\pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg" />
+    <None Include="wwwroot\Images\shark-ovski-88pn4FfdtY8-unsplash.jpg" />
+    <None Include="wwwroot\Images\shubham-dhage-xVWSP1rvZcM-unsplash.jpg" />
+    <None Include="wwwroot\Images\thumbnail_IMG_1615.jpg" />
+    <None Include="wwwroot\Images\wood-fence-background_2.jpeg" />
+    <None Include="wwwroot\js\scripts.js" />
+    <None Include="_ARCHIVE\.git\COMMIT_EDITMSG" />
+    <None Include="_ARCHIVE\.git\config" />
+    <None Include="_ARCHIVE\.git\description" />
+    <None Include="_ARCHIVE\.git\HEAD" />
+    <None Include="_ARCHIVE\.git\hooks\applypatch-msg.sample" />
+    <None Include="_ARCHIVE\.git\hooks\commit-msg.sample" />
+    <None Include="_ARCHIVE\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="_ARCHIVE\.git\hooks\post-update.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-applypatch.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-commit.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-merge-commit.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-push.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-rebase.sample" />
+    <None Include="_ARCHIVE\.git\hooks\pre-receive.sample" />
+    <None Include="_ARCHIVE\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="_ARCHIVE\.git\hooks\push-to-checkout.sample" />
+    <None Include="_ARCHIVE\.git\hooks\update.sample" />
+    <None Include="_ARCHIVE\.git\index" />
+    <None Include="_ARCHIVE\.git\info\exclude" />
+    <None Include="_ARCHIVE\.git\logs\HEAD" />
+    <None Include="_ARCHIVE\.git\logs\refs\heads\main" />
+    <None Include="_ARCHIVE\.git\logs\refs\remotes\origin\main" />
+    <None Include="_ARCHIVE\.git\objects\01\4a5be130312824da9ab16381741a0d5dd1e88b" />
+    <None Include="_ARCHIVE\.git\objects\05\33cceb57bbaf67e487a745a794f905e59f39ae" />
+    <None Include="_ARCHIVE\.git\objects\11\987ca2da07a2659d69cfb301810448ef7e1766" />
+    <None Include="_ARCHIVE\.git\objects\14\0d6724ccefe4d06e1de67cab8c0373c518a819" />
+    <None Include="_ARCHIVE\.git\objects\16\140eacba005036aad3aa9681d5adf81a2d9377" />
+    <None Include="_ARCHIVE\.git\objects\18\31e193795ecb2a162f01d5df3ab77ef74741ce" />
+    <None Include="_ARCHIVE\.git\objects\1a\7de6e9cbb7ff05e6ab34b2a6562a5db72816e0" />
+    <None Include="_ARCHIVE\.git\objects\1a\c9fcaab72a2ee39938c06aa391eae91c03f9bb" />
+    <None Include="_ARCHIVE\.git\objects\1e\db1f641a715a2b6e225b863a92924d4331b4d2" />
+    <None Include="_ARCHIVE\.git\objects\23\242b9f9f54f8282049ea5fd34efc230df8e8b1" />
+    <None Include="_ARCHIVE\.git\objects\24\26d63050fb71df7020dbed991282090ee0292a" />
+    <None Include="_ARCHIVE\.git\objects\26\304578a01b51935d12daaf0ac7ce4ca7be152e" />
+    <None Include="_ARCHIVE\.git\objects\2c\dd9718ec4c4d8a863487c9f5dd5f4614426b04" />
+    <None Include="_ARCHIVE\.git\objects\2d\a32767f43e7735bca583bf1aa5c7436ae485fe" />
+    <None Include="_ARCHIVE\.git\objects\2f\b5572f83d3cdcfa800a1143b067bf32dc9d850" />
+    <None Include="_ARCHIVE\.git\objects\33\eaefae060d659adfa673511cb729ffdd4d7032" />
+    <None Include="_ARCHIVE\.git\objects\34\26ad830ee289c84db4e35c502e1394b6f53733" />
+    <None Include="_ARCHIVE\.git\objects\34\83b96610901dad63e571595433b0ed72bc143a" />
+    <None Include="_ARCHIVE\.git\objects\38\35b2f8409299986df29e3a4d62f9c9973ac59f" />
+    <None Include="_ARCHIVE\.git\objects\3d\7356485d31e3f3e9ea04eb57bea7f6f74c54be" />
+    <None Include="_ARCHIVE\.git\objects\43\2aeec3590275169c0025abc8bb52f392eebc86" />
+    <None Include="_ARCHIVE\.git\objects\57\4be4d9f15af40b747c4e39569ff514782943c1" />
+    <None Include="_ARCHIVE\.git\objects\6f\978350af30f11ac781db2df3d54596b391947f" />
+    <None Include="_ARCHIVE\.git\objects\71\eb03e1711670e120984b674619cce0cf569d57" />
+    <None Include="_ARCHIVE\.git\objects\7e\da3ec6c85377e3bb3757ffddb4816cfcb846b3" />
+    <None Include="_ARCHIVE\.git\objects\7f\48f445ccdbbce54a4b501f0596565c03d7c704" />
+    <None Include="_ARCHIVE\.git\objects\82\cca3849464d82cf5e2ff368434004c2a1705ff" />
+    <None Include="_ARCHIVE\.git\objects\85\e8f71ac6ff32b944838c319ab1ae51135ffa3b" />
+    <None Include="_ARCHIVE\.git\objects\88\fbca49efbe6d99d7d8a5524d7766d11439cfc6" />
+    <None Include="_ARCHIVE\.git\objects\8d\b64607e455463b152eb404a5b58c9aa4c98b88" />
+    <None Include="_ARCHIVE\.git\objects\91\72970f286e74ba8628afe2c981f54674190c41" />
+    <None Include="_ARCHIVE\.git\objects\91\8777a020c3f13086a99489eb3c1eba772c307f" />
+    <None Include="_ARCHIVE\.git\objects\92\6798c846c5bc24fd15542abe032168f330c685" />
+    <None Include="_ARCHIVE\.git\objects\93\56735ca323587d5730a74bd017d9cb2153479b" />
+    <None Include="_ARCHIVE\.git\objects\99\930e5d9b8d0ca2b4f1727aa01642d6782e7cdc" />
+    <None Include="_ARCHIVE\.git\objects\9e\6634ed0a8680751fa816b8d2b9370a357f2025" />
+    <None Include="_ARCHIVE\.git\objects\9f\b0769dc08409a3e25768fe5a8d3caa8dd617ca" />
+    <None Include="_ARCHIVE\.git\objects\9f\c03a7f828258736eedfcbb5cd2a94827a21d1b" />
+    <None Include="_ARCHIVE\.git\objects\af\fa73e6858e5859361cc8c8fe142333332717ee" />
+    <None Include="_ARCHIVE\.git\objects\b5\2e1434323da605bbee9a7411998e251c1b006f" />
+    <None Include="_ARCHIVE\.git\objects\b7\b30a33e2e34c38100363e67e503758b8073734" />
+    <None Include="_ARCHIVE\.git\objects\be\8c4b1684b1387e2eedbf0aba713a0b20d870cb" />
+    <None Include="_ARCHIVE\.git\objects\c3\d8141e3444798272babc046fec711b9e76aa15" />
+    <None Include="_ARCHIVE\.git\objects\c4\7a9447e4f9d9a20b0c306bb776bf7965d682ce" />
+    <None Include="_ARCHIVE\.git\objects\c4\940a69f65e092c9b835e45422d66e5d42a770e" />
+    <None Include="_ARCHIVE\.git\objects\c7\afe9a017fe708ff43e7a87269e1676eed74c6a" />
+    <None Include="_ARCHIVE\.git\objects\c7\dd33d244c141e316632246a857a7d4edf401f4" />
+    <None Include="_ARCHIVE\.git\objects\ca\852228900fc5cfed8d9f449db07499d5d0db4f" />
+    <None Include="_ARCHIVE\.git\objects\d8\093444a7f8452a36c08f47cc220a74a5ab9b5a" />
+    <None Include="_ARCHIVE\.git\objects\e1\8f84fbf6bd71ccb7dc1266544c7a922dc03463" />
+    <None Include="_ARCHIVE\.git\objects\e3\a7f84f5362acfb95d6bd692d4958bda463bbe6" />
+    <None Include="_ARCHIVE\.git\objects\e4\ba31e98e19128308cd90a3add871b56b15f719" />
+    <None Include="_ARCHIVE\.git\objects\e6\583425356e0cd4162e6af4c6ccfb422c5f2cd6" />
+    <None Include="_ARCHIVE\.git\objects\f3\be29c83e709993bb054b827f39d7d55adbcf5e" />
+    <None Include="_ARCHIVE\.git\objects\f6\73a71b7a275609030462c0278586d61e5f3a00" />
+    <None Include="_ARCHIVE\.git\objects\f9\97faddc3ce127df7cbc1f8b8047548df08c419" />
+    <None Include="_ARCHIVE\.git\objects\fa\d422ceabb50823488ac24db7dbaafee1e753c0" />
+    <None Include="_ARCHIVE\.git\objects\fd\c909f2376ac9296af9ad1e255c259c3405a975" />
+    <None Include="_ARCHIVE\.git\refs\heads\main" />
+    <None Include="_ARCHIVE\.git\refs\remotes\origin\main" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="_ARCHIVE\.git\objects\info\" />
+    <Folder Include="_ARCHIVE\.git\objects\pack\" />
+    <Folder Include="_ARCHIVE\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>
